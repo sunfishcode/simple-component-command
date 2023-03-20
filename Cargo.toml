@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [package.metadata.component]
-target = { path = "../preview2-prototyping/wit", world = "command" }
+target = { path = "wit", world = "command" }
 
 [package.metadata.component.dependencies]
 
